@@ -1,0 +1,26 @@
+{
+  "petcards": [
+    {
+      "id": "1",
+      "ownerId": "111",
+      "name": "tommy",
+      "description": " es muy bonito",
+      "birthday": "1/25/2022, 1:15:44 PM",
+      "weight": "4 kilos",
+      "createdAt": "2/25/2022, 1:15:44 PM",
+      "updatedAt": "3/25/2022, 1:15:44 PM",
+      "urlImage": "https://"
+    },
+    {
+      "id": "1",
+      "ownerId": "111",
+      "name": "Gorda",
+      "description": " es muy bonita",
+      "birthday": "1/25/2020, 1:15:44 PM",
+      "weight": "2 KILOS",
+      "createdAt": "2/25/2020, 1:15:44 PM",
+      "updatedAt": "3/25/2020, 1:15:44 PM",
+      "urlImage": "https://"
+    }
+  ]
+}

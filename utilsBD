@@ -1,0 +1,29 @@
+
+CREATE TABLE pet_owner (
+    owner_id varchar(20),
+    name varchar(15),
+    birthday  date,
+    createdAt date,
+    updatedAt date,
+    urlImage varchar(200),
+    password varchar(20),
+    CONSTRAINT pet_owner_pk PRIMARY KEY (owner_id)
+)
+
+
+
+CREATE TABLE petcard (
+    petcard_id varchar(20),
+    owner_id varchar(20),
+    name varchar(15),
+    description  varchar(100),
+    birthday  date,
+    weight  integer,
+    createdAt date,
+    updatedAt date,
+    urlImage varchar(200),
+    CONSTRAINT petcard_pk PRIMARY KEY (petcard_id),
+    CONSTRAINT owner_fk
+      FOREIGN KEY(owner_id) 
+	  REFERENCES pet_owner(owner_id)
+)
